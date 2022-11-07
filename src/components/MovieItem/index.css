@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.movie-thumbnail {
+  width: 160px;
+  height: 160px;
+}
+.video-modal-bg {
+  border-radius: 24px;
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.close-btn-bg {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.close-btn {
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  width: 40px;
+  height: 40px;
+}
+.close {
+  color: #000000;
+  width: 100%;
+  height: 100%;
+}
+.each-slide-item {
+  width: 180px;
+  height: 180px;
+  display: inline;
+}
