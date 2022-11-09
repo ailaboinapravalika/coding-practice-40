@@ -6,7 +6,7 @@ import './index.css'
 
 const MovieItem = props => {
   const {movieDetails} = props
-  const {thumbnailUrl, videoUrl, id} = movieDetails
+  const {thumbnailUrl, videoUrl, id, categoryId} = movieDetails
   console.log(movieDetails)
 
   return (
